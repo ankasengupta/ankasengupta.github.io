@@ -4810,6 +4810,22 @@ a.badge-dark:focus, a.badge-dark.focus {
   box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
 }
 
+.skill-badge {
+  background-color: #ecf0f1; /* light grey */
+  color: #2c3e50;
+  padding: 0.5em 0.75em;
+  margin: 0.25em;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border-radius: 20px; /* pill shape */
+  transition: background 0.3s ease;
+}
+
+.skill-badge:hover {
+  background-color: #bdc3c7; /* slightly darker hover */
+  cursor: default; /* change to pointer if clickable */
+}
+
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
